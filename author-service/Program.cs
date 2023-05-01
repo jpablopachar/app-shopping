@@ -1,4 +1,7 @@
+using author_service.Application;
 using author_service.Persistence;
+using AutoMapper;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using static author_service.Application.New;
@@ -10,8 +13,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSqlConnection")));
 
 builder.Services.AddMediatR(typeof(Handler).Assembly);
+builder.Services.AddAutoMapper(typeof(Handler).Assembly);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<New>());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

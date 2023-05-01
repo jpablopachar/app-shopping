@@ -1,5 +1,6 @@
 using author_service.Models;
 using author_service.Persistence;
+using FluentValidation;
 using MediatR;
 
 namespace author_service.Application
@@ -10,6 +11,15 @@ namespace author_service.Application
             public string? Name { get; set; }
             public string? LastName { get; set; }
             public DateTime BirthDate { get; set; }
+        }
+
+        public class Validator : AbstractValidator<Main>
+        {
+            public Validator()
+            {
+                RuleFor(x => x.Name).NotEmpty();
+                RuleFor(x => x.LastName).NotEmpty();
+            }
         }
 
         public class Handler : IRequestHandler<Main>

@@ -1,5 +1,4 @@
 using author_service.Application;
-using author_service.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using static author_service.Application.New;
@@ -24,13 +23,13 @@ namespace author_service.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<AuthorBook>>> GetAuthors()
+        public async Task<ActionResult<List<AuthorDto>>> GetAuthors()
         {
             return await _mediator.Send(new Query.AuthorList());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<AuthorBook>> GetAuthorBook(string id)
+        public async Task<ActionResult<AuthorDto>> GetAuthorBook(string id)
         {
             return await _mediator.Send(new QueryFilter.UniqueAuthor { AuthorGuid = id });
         }
