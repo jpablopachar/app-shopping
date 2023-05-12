@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\test-book-service\\test-book-service.csproj": {}
+    "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\test-book-service\\test-book-service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\book-service\\book-service.csproj": {
+    "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\book-service\\book-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\book-service\\book-service.csproj",
+        "projectUniqueName": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\book-service\\book-service.csproj",
         "projectName": "book-service",
-        "projectPath": "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\book-service\\book-service.csproj",
-        "packagesPath": "C:\\Users\\jpabl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\book-service\\obj\\",
+        "projectPath": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\book-service\\book-service.csproj",
+        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\book-service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jpabl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -98,21 +98,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\test-book-service\\test-book-service.csproj": {
+    "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\test-book-service\\test-book-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\test-book-service\\test-book-service.csproj",
+        "projectUniqueName": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\test-book-service\\test-book-service.csproj",
         "projectName": "test-book-service",
-        "projectPath": "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\test-book-service\\test-book-service.csproj",
-        "packagesPath": "C:\\Users\\jpabl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\test-book-service\\obj\\",
+        "projectPath": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\test-book-service\\test-book-service.csproj",
+        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\test-book-service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jpabl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -124,8 +124,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\book-service\\book-service.csproj": {
-                "projectPath": "C:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\book-service\\book-service.csproj"
+              "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\book-service\\book-service.csproj": {
+                "projectPath": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\book-service\\book-service.csproj"
               }
             }
           }
@@ -143,6 +143,10 @@
             "GenFu": {
               "target": "Package",
               "version": "[1.6.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.5, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -185,7 +189,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

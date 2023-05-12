@@ -5,11 +5,10 @@ namespace book_service.Persistence
 {
     public class LibraryContext : DbContext
     {
-        public LibraryContext(DbContextOptions options) : base(options)
-        {
-            // AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-        }
+        public LibraryContext() { }
 
-        public DbSet<LibraryMaterial> LibraryMaterial { get; set; }
+        public LibraryContext(DbContextOptions options) : base(options) { }
+
+        public virtual DbSet<LibraryMaterial> LibraryMaterial { get; set; }
     }
 }
