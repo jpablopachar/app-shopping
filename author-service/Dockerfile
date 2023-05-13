@@ -1,7 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 WORKDIR /app
 EXPOSE 80
-EXPOSE 5140
 
 COPY *.csproj ./
 RUN dotnet restore

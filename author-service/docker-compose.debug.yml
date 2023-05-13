@@ -4,7 +4,7 @@ version: '3.4'
 
 services:
   authorservice:
-    image: authorservice
+    image: author-service
     build:
       context: .
       dockerfile: ./Dockerfile

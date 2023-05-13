@@ -1,0 +1,12 @@
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\bin\Debug\net7.0\email.deps.json
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\bin\Debug\net7.0\email.dll
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\bin\Debug\net7.0\email.pdb
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\email.csproj.AssemblyReference.cache
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\email.AssemblyInfoInputs.cache
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\email.AssemblyInfo.cs
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\email.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\email.dll
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\refint\email.dll
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\email.pdb
+C:\Users\Pc\Documents\Aplicaciones\Csharp\Normal\app-shopping\email\obj\Debug\net7.0\ref\email.dll

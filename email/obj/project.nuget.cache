@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UFisZ67jhBVatpzw5X+lVeuQ5Py7VW3RvejKNhJZktYysU2LE5/6d7g3sYgsrRgk6iOE6LKPL55iqCnL/ZejnQ==",
+  "dgSpecHash": "y0gThGgjFc3L+yMKs7ISxb+JWVju6sPAEN7v5R7PxWF5ZDW/aE+NVyKbt5NRW0e/qgvggb1+b+yYNk99uIf9ig==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj",
+  "projectFilePath": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Pc\\.nuget\\packages\\sendgrid\\9.28.1\\sendgrid.9.28.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj": {}
+    "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj": {
+    "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj",
+        "projectUniqueName": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj",
         "projectName": "email",
-        "projectPath": "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj",
+        "projectPath": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj",
         "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\obj\\",
+        "outputPath": "C:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
