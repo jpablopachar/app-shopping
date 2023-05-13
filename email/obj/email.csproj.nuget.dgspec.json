@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\email\\email.csproj": {}
+    "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\email\\email.csproj": {
+    "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\email\\email.csproj",
+        "projectUniqueName": "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj",
         "projectName": "email",
-        "projectPath": "c:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\email\\email.csproj",
-        "packagesPath": "C:\\Users\\jpabl\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jpabl\\Documents\\Aplicaciones\\Csharp\\app-shopping\\email\\obj\\",
+        "projectPath": "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\email.csproj",
+        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Pc\\Documents\\Aplicaciones\\Csharp\\Normal\\app-shopping\\email\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jpabl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
