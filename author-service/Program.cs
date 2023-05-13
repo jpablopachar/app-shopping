@@ -19,7 +19,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddMediatR(typeof(Handler).Assembly);
 builder.Services.AddAutoMapper(typeof(Handler).Assembly);
 
-builder.Services.AddTransient<IBusEvent, BusEvent>();
+builder.Services.AddSingleton<IBusEvent, BusEvent>(subscription =>
+{
+    var scopeFactory = subscription.GetRequiredService<IServiceScopeFactory>();
+
+    return new BusEvent(subscription.GetService<IMediator>(), scopeFactory);
+});
+
+builder.Services.AddTransient<EmailEventHandler>();
 builder.Services.AddTransient<IHandlerEvent<EmailEventQueue>, EmailEventHandler>();
 
 builder.Services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<New>());

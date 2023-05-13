@@ -17,7 +17,13 @@ builder.Services.AddDbContext<LibraryContext>(options =>
 builder.Services.AddMediatR(typeof(Handler).Assembly);
 builder.Services.AddAutoMapper(typeof(Handler).Assembly);
 
-builder.Services.AddTransient<IBusEvent, BusEvent>();
+// builder.Services.AddTransient<IBusEvent, BusEvent>();
+builder.Services.AddSingleton<IBusEvent, BusEvent>(subscription =>
+{
+    var scopeFactory = subscription.GetRequiredService<IServiceScopeFactory>();
+
+    return new BusEvent(subscription.GetService<IMediator>(), scopeFactory);
+});
 
 builder.Services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<New>());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

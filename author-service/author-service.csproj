@@ -19,5 +19,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\rabbitmq-bus\rabbitmq-bus.csproj" />
+    <ProjectReference Include="..\email\email.csproj" />
   </ItemGroup>
 </Project>
