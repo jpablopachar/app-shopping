@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>rabbitmq_bus</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1"/>
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+  </ItemGroup>
+</Project>

@@ -2,6 +2,8 @@ using book_service.Models;
 using book_service.Persistence;
 using FluentValidation;
 using MediatR;
+using rabbitmq_bus.Bus;
+using rabbitmq_bus.Queues;
 
 namespace book_service.Application
 {
@@ -27,10 +29,12 @@ namespace book_service.Application
         public class Handler : IRequestHandler<Main>
         {
             public readonly LibraryContext _context;
+            private readonly IBusEvent _busEvent;
 
-            public Handler(LibraryContext context)
+            public Handler(LibraryContext context, IBusEvent busEvent)
             {
                 _context = context;
+                _busEvent = busEvent;
             }
 
             public async Task<Unit> Handle(Main request, CancellationToken cancellationToken)
@@ -45,6 +49,8 @@ namespace book_service.Application
                 await _context.LibraryMaterial.AddAsync(book);
 
                 var value = await _context.SaveChangesAsync();
+
+                _busEvent.Publish(new EmailEventQueue("jpablopachar1993@gmail.com", request.Title, "Este es un contenido de ejemplo"));
 
                 if (value > 0)
                 {

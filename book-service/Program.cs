@@ -4,6 +4,8 @@ using book_service.Persistence;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using rabbitmq_bus.Bus;
+using rabbitmq_bus.Implements;
 using static book_service.Application.New;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,8 @@ builder.Services.AddDbContext<LibraryContext>(options =>
 
 builder.Services.AddMediatR(typeof(Handler).Assembly);
 builder.Services.AddAutoMapper(typeof(Handler).Assembly);
+
+builder.Services.AddTransient<IBusEvent, BusEvent>();
 
 builder.Services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<New>());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
